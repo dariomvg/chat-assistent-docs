@@ -1,0 +1,137 @@
+.section-preview {
+    width: 100%; 
+}
+
+.title-section-preview {
+    color: #fff; 
+    margin-bottom: 12px; 
+}
+
+
+
+.button-theme {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #909090;
+    margin-bottom: 12px;
+    color: #fff; 
+    background-color: #000;
+    transition: border .5s;
+
+}
+
+.button-theme:hover {
+    border-color: #fff;
+    transition: border .5s;
+}
+
+
+
+.container-chat {
+    width: 50%; 
+    margin: auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    display: flex; 
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #ccc;
+}
+
+
+.message-main-chat {
+    font-size: 20px; 
+    color: #000; 
+    font-weight: 500; 
+}
+
+.list-chat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.option-chat {
+    list-style: none;
+    font-size: 16px;
+    color: #101010; 
+    cursor: pointer; 
+    font-weight: 500;
+}
+
+.response-chat {
+    width: 100%; 
+        display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.option-response {
+    color: #000; 
+    
+}
+
+.content-response {
+    color: #101010; 
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.path-response {
+    text-decoration: underline;
+    color: #000; 
+    font-weight: 500;
+
+}
+hr {
+    width: 100%; 
+    background-color: #000;
+
+}
+
+.container-question-chat {
+    width: 100%; 
+}
+
+.title-question-chat {
+    color: #101010; 
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.container-buttons-question {
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    gap: 26px;
+}
+
+.button-question {
+    background-color: transparent;
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    color: #000; 
+    font-weight: 500;
+}
+.button-question:hover {
+    text-decoration: underline;
+}
+
+.theme-dark {
+    background-color: #000;
+}
+
+.theme-dark .message-main-chat, .theme-dark .option-response, .theme-dark .path-response, .theme-dark .button-question {
+    color: #fff; 
+}
+
+.theme-dark .option-chat, .theme-dark .content-response, .theme-dark .title-question-chat {
+    color: #ddd; 
+}
+

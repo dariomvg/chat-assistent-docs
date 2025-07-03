@@ -1,0 +1,29 @@
+---
+import Config from "../components/Config.astro"
+import Footer from "../components/Footer.astro"
+import Header from "../components/Header.astro"
+import Main from "../components/Main.astro"
+import Preview from "../components/Preview.astro"
+import Use from "../components/Use.astro"
+import "../styles/globals.css"
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="Chat asistente y guía de aplicaciones web, para una navegación más fluida y rápida">
+		<title>Chat asistente</title>
+	</head>
+	<body>
+		<Header />
+		<main class="main">
+			<Main />
+			<Use />
+			<Config />
+			<Preview />
+		</main>
+		<Footer />
+	</body>
+</html>

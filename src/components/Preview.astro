@@ -1,0 +1,42 @@
+---
+import "../styles/preview.css"
+---
+
+<script>
+    const button = document.getElementById("button-theme");
+    const chat = document.getElementById("container-chat");
+
+    button?.addEventListener("click", () => {
+        chat?.classList.toggle("theme-dark");
+    })
+</script>
+
+<section class="section-preview" id="vista-previa">
+    <h3 class="title-section-preview">Vista previa</h3>
+
+    <button class="button-theme" id="button-theme">Cambiar tema</button>
+ 
+    <div class="container-chat" id="container-chat">
+        <p class="message-main-chat">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores unde odio, maxime delectus alias nisi natus expedita.</p>
+        <ul class="list-chat">
+            <li class="option-chat">¿Opción 1?</li>
+            <li class="option-chat">¿Opción 2?</li>
+            <li class="option-chat">¿Opción 3?</li>
+        </ul>
+            <hr>
+        <div class="response-chat">
+            <h3 class="option-response">Opcion 1</h3>
+            <p class="content-response">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident quaerat magnam vero inventore aut ex laboriosam deleniti, consequuntur nobis aliquam velit fugit corrupti neque blanditiis molestiae exercitationem ullam nam?</p>
+            <a href="#" class="path-response">Más información acá</a>
+        </div>
+        <hr>
+        <div class="container-question-chat">
+            <p class="title-question-chat">¿Necesitás ayuda con algo más?</p>
+            <div class="container-buttons-question">
+                <button class="button-question">Si</button>
+                <button class="button-question">No</button>
+            </div>
+        </div>
+    </div>
+</section>
+

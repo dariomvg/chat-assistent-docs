@@ -1,0 +1,40 @@
+---
+import "../styles/config.css"
+---
+
+<section class="section-config" id="config">
+    <h3 class="title-section-config">Configuración</h3>
+    <ul class="list-config">
+        <li class="item-config">
+            <h4>Options</h4>
+            <p>Options en un array de objetos que es la lista de preguntas que se le pasa al chat con todo el contenido de tu aplicación</p>
+        </li>
+        <li class="item-config">
+            <h4>Objeto de options</h4>
+            <p>Este es el objeto para cada una de las preguntas que tendrá el chat con las que brindará será la ayuda o guía en tu aplicación:</p>
+            <ol class="container-list-config">
+                <li><b>1. Id: </b> Número aleatorio para cada opción</li>
+                <li><b>2. Option: </b>Pregunta partícular sobre tu aplicación</li>
+                <li><b>3. Content: </b>Una descripción, detalle o respuesta a la pregunta seleccionada</li>
+                <li><b>4. Path: </b>La ruta para redirrecionar al usuario a una sección específica de tu aplicación. Esta opción es opcional</li>
+            </ol>
+            <code class="code-config">
+                 <b class="b">{`[{`}</b>
+                 <p><b class="b1">id:</b><i class="i1">0</i></p>
+                 <p><b class="b1">option:</b><i class="i1">""</i></p>
+                 <p><b class="b1">content:</b><i class="i1">""</i></p>
+                 <p><b class="b1">path:</b><i class="i1">""</i></p>
+                 <b class="b">{`}]`}</b>
+                    
+            </code>
+        </li>
+        <li class="item-config">
+            <h4>MessageMain y theme</h4>
+            
+            <div class="container-list-config">
+                <p><b>MessageMain: </b> Es un mensaje inicial al comienzo del chat, personalizada para el fín del chat o tu aplicación. Esta opción es opcional</p>
+                <p><b>Theme: </b> Tema del chat, puede ser dark(oscuro) o light(claro). Por defecto es en tema claro</p>
+            </div>
+        </li>
+    </ul>
+</section>
