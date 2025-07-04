@@ -13,14 +13,14 @@ Puede ser:
 1. Instalación
 
 ```js
-npm i chat-assistent
+npm i kit-components-ui
 ```
 
 2. Configuración
 
 ```jsx
 
-import { ChatAssistent } from "chat-assistent"
+import { ChatAssistent } from "kit-components-ui"
 
 export default function App() {
 
@@ -34,7 +34,7 @@ export default function App() {
     ]
 
     return (
-        <ChatAssistent options={options} messageMain="" theme="dark" />
+        <ChatAssistent options={options} messageMain="" theme="dark" width="400px" height="400px" />
     )
 }
 
